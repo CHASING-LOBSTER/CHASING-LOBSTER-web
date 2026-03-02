@@ -18,7 +18,7 @@
     </header>
         <aside class="sidebar">
             <h3>Shopping Catergories</h3>
-            <button class="sidebar-close-button" onclick="CloseMenu()">x</button>
+            <button class="sidebar-close-button" onclick="closeMenu()">x</button>
             <ul>
                 <li>
                     <a href="index.html">Pants</a>
@@ -114,13 +114,12 @@
                 </li>
             </ul>
         </main>
-        <footer className="footer">
+        <footer class="footer">
             &copy; 2022 Chasing Lobster
         </footer>
     </div>
 </body>
 
-</div>
 <script>
     function openMenu(){
         document.querySelector(".sidebar").classList.add("open");
