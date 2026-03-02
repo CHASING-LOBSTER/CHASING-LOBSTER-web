@@ -5,10 +5,17 @@
     <title>Chasing Lobster</title>
 </head>
 <body>
-    <div>
-        <header>
-            Chasing Lobster
-        </header>
+    <div class="grid-container">
+    <header class="header">
+        <div class="brand">
+            <button onClick="openMenu()">&#9776;</button>
+            <a href = "index.html">Chasing Lobster</a>
+        </div>
+        <div class="header-links">
+            <a href="cart.html">Cart</a>
+            <a href="signin.html">Sign In</a>
+        </div>
+    </header>
         <aside class="sidebar">
             <h3>Shopping Catergories</h3>
             <button class="sidebar-close-button" onclick="CloseMenu()">x</button>
@@ -112,16 +119,7 @@
         </footer>
     </div>
 </body>
-<div class="grid-container">
-    <header class="header">
-        <div class="brand">
-            <button onClick="openMenu()">&#9776;</button>
-        </div>
-        <div class="header-links"></div>
-        <a href="cart.html">Cart</a>
-        <a href="signin.html">Sign In</a>
-        </div>
-    </header>
+
 </div>
 <script>
     function openMenu(){
@@ -131,4 +129,4 @@
         document.querySelector(".sidebar").classList.remove("open");
     }
 </script>
-</htlm>
+</html>
